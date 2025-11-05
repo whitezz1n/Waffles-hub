@@ -1,3 +1,8 @@
+-- FPS Killer v10 (EDUCACIONAL, uso próprio)
+-- ÚNICO BOTÃO que: 1) spam ordenado slots 0->9, 2) aplica efeito visual de "spin" (base 10) sem alterar HRP (evita resets)
+-- Agora com toggle pelo teclado G
+-- Use APENAS em jogos que você desenvolve / controla.
+
 if game:GetService("CoreGui"):FindFirstChild("FPSKillerGUI") then
 	game:GetService("CoreGui").FPSKillerGUI:Destroy()
 end
@@ -246,3 +251,4 @@ runService.RenderStepped:Connect(function()
         lastSafePosition = hrp.Position
     end
 end)
+
