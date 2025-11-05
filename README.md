@@ -251,4 +251,3 @@ runService.RenderStepped:Connect(function()
         lastSafePosition = hrp.Position
     end
 end)
-
